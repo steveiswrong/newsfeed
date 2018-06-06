@@ -1,7 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
+import Newsfeed from './Newsfeed'
+
 ReactDOM.render(
-    <h1>Hello World</h1>,
+    <Newsfeed />,
     document.getElementById("root")
 )
