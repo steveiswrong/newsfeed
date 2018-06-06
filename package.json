@@ -1,0 +1,33 @@
+{
+  "name": "newsfeed",
+  "version": "0.0.1",
+  "description": "simple react app that will show snippets of news/rss feeds",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack -w --config webpack.config.js",
+    "test": "webpack-dev-server -w --config webpack.config.js"
+  },
+  "keywords": [
+    "rss",
+    "react",
+    "learn"
+  ],
+  "author": "steveiswrong",
+  "license": "ISC",
+  "private": false,
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.11.0",
+    "webpack-cli": "^3.0.2",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
